@@ -7,6 +7,7 @@ print (du)
 print(cpu_use)
 
 #function to check disk
+
 def check_disk_full(disk, min_gb, min_percent):
     """Returns True if there isn't enough disk space, False otherwise."""
     du = shutil.disk_usage(disk)
